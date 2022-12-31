@@ -62,7 +62,7 @@ int main ()
     }
     else if (operation == '/')
     {
-        z = number1 / number2 ;
+        z = division(number1, number2) ;
         cout << z;
     }
     else if ( operation == '-')
